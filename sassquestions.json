@@ -1,0 +1,892 @@
+[
+  {
+    "question": "What does Sass stand for?",
+    "options": [
+      "Syntactically Awesome Style Sheets",
+      "Styled Awesome Style Sheets",
+      "Systematic Awesome Style Sheets",
+      "Super Awesome Style Sheets"
+    ],
+    "answer": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "question": "Which of these is NOT a valid Sass file extension?",
+    "options": [".sass", ".scss", ".sassc", ".css"],
+    "answer": ".sassc"
+  },
+  {
+    "question": "What character is used to define variables in Sass?",
+    "options": ["!", "@", "$", "&"],
+    "answer": "$"
+  },
+  {
+    "question": "Which directive is used to import other Sass files?",
+    "options": ["@include", "@import", "@use", "@extend"],
+    "answer": "@use"
+  },
+  {
+    "question": "What is the purpose of the & (ampersand) in Sass?",
+    "options": [
+      "Reference to parent selector",
+      "Logical AND operator",
+      "String concatenation",
+      "Placeholder for arguments"
+    ],
+    "answer": "Reference to parent selector"
+  },
+  {
+    "question": "Which directive is used to define mixins?",
+    "options": ["@include", "@mixin", "@function", "@define"],
+    "answer": "@mixin"
+  },
+  {
+    "question": "How do you include a mixin in Sass?",
+    "options": ["@mixin", "@include", "@use", "@extend"],
+    "answer": "@include"
+  },
+  {
+    "question": "Which directive allows you to extend/inherit styles?",
+    "options": ["@include", "@import", "@use", "@extend"],
+    "answer": "@extend"
+  },
+  {
+    "question": "What is the correct way to write a for loop in Sass?",
+    "options": [
+      "@for $i from 1 through 5",
+      "for (i = 1; i <= 5; i++)",
+      "loop $i from 1 to 5",
+      "@each $i in 1 through 5"
+    ],
+    "answer": "@for $i from 1 through 5"
+  },
+  {
+    "question": "Which function is used to darken a color in Sass?",
+    "options": ["darken()", "blacken()", "shade()", "color-dark()"],
+    "answer": "darken()"
+  },
+  {
+    "question": "What is the purpose of the @content directive?",
+    "options": [
+      "Pass content blocks to mixins",
+      "Include external content",
+      "Define CSS content property",
+      "Inject text content"
+    ],
+    "answer": "Pass content blocks to mixins"
+  },
+  {
+    "question": "Which Sass data type represents true/false values?",
+    "options": ["boolean", "bool", "truefalse", "binary"],
+    "answer": "boolean"
+  },
+  {
+    "question": "How do you create a placeholder selector in Sass?",
+    "options": [".%", "!placeholder", "%", "@placeholder"],
+    "answer": "%"
+  },
+  {
+    "question": "Which function converts a number to a string in Sass?",
+    "options": ["string()", "to-string()", "str()", "quote()"],
+    "answer": "quote()"
+  },
+  {
+    "question": "What is the purpose of the @debug directive?",
+    "options": [
+      "Print values to console during compilation",
+      "Enable debugging mode",
+      "Add debug comments to output CSS",
+      "Validate Sass syntax"
+    ],
+    "answer": "Print values to console during compilation"
+  },
+  {
+    "question": "Which operator is used for string concatenation in Sass?",
+    "options": ["+", "&", "||", "++"],
+    "answer": "+"
+  },
+  {
+    "question": "What does the @at-root directive do?",
+    "options": [
+      "Bubbles nested rules up to root level",
+      "References root element",
+      "Creates root variables",
+      "Resets nesting context"
+    ],
+    "answer": "Bubbles nested rules up to root level"
+  },
+  {
+    "question": "Which function checks if a variable exists in Sass?",
+    "options": ["exists()", "defined()", "variable-exists()", "has()"],
+    "answer": "variable-exists()"
+  },
+  {
+    "question": "What is the purpose of the @warn directive?",
+    "options": [
+      "Display warning messages during compilation",
+      "Throw compilation errors",
+      "Add warning comments to CSS",
+      "Disable style rules"
+    ],
+    "answer": "Display warning messages during compilation"
+  },
+  {
+    "question": "Which directive is used to create custom functions in Sass?",
+    "options": ["@function", "@mixin", "@return", "@def"],
+    "answer": "@function"
+  },
+  {
+    "question": "What does the @each directive do in Sass?",
+    "options": [
+      "Iterates over lists/maps",
+      "Checks each condition",
+      "Applies styles to each element",
+      "Generates vendor prefixes"
+    ],
+    "answer": "Iterates over lists/maps"
+  },
+  {
+    "question": "Which function returns the length of a list in Sass?",
+    "options": ["count()", "length()", "size()", "list-len()"],
+    "answer": "length()"
+  },
+  {
+    "question": "What is the purpose of the @forward directive?",
+    "options": [
+      "Makes mixins/variables available to other files",
+      "Extends styles forward",
+      "Creates forward-compatible CSS",
+      "Processes styles sequentially"
+    ],
+    "answer": "Makes mixins/variables available to other files"
+  },
+  {
+    "question": "Which function converts a string to a number in Sass?",
+    "options": ["number()", "to-number()", "int()", "parse()"],
+    "answer": "number()"
+  },
+  {
+    "question": "What does the @if directive do in Sass?",
+    "options": [
+      "Conditionally includes styles",
+      "Checks for Internet Explorer",
+      "Validates CSS syntax",
+      "Imports conditionally"
+    ],
+    "answer": "Conditionally includes styles"
+  },
+  {
+    "question": "Which function returns the red component of a color?",
+    "options": ["red()", "color-red()", "get-red()", "red-component()"],
+    "answer": "red()"
+  },
+  {
+    "question": "What is the purpose of the @while directive?",
+    "options": [
+      "Creates loops that run while condition is true",
+      "Checks browser support",
+      "Waits for resources to load",
+      "Processes styles repeatedly"
+    ],
+    "answer": "Creates loops that run while condition is true"
+  },
+  {
+    "question": "Which function combines two lists in Sass?",
+    "options": ["merge()", "concat()", "join()", "combine()"],
+    "answer": "join()"
+  },
+  {
+    "question": "What does the @error directive do?",
+    "options": [
+      "Throws compilation errors with custom messages",
+      "Handles CSS error states",
+      "Validates syntax errors",
+      "Logs errors to console"
+    ],
+    "answer": "Throws compilation errors with custom messages"
+  },
+  {
+    "question": "Which function returns the type of a value in Sass?",
+    "options": ["type()", "typeof()", "type-of()", "get-type()"],
+    "answer": "type-of()"
+  },
+  {
+    "question": "What is the purpose of the @use rule's 'as' keyword?",
+    "options": [
+      "To alias the module namespace",
+      "To assign variables",
+      "To assert type safety",
+      "To enable automatic imports"
+    ],
+    "answer": "To alias the module namespace"
+  },
+  {
+    "question": "Which Sass function creates a new list by removing duplicate values?",
+    "options": ["unique()", "distinct()", "dedupe()", "uniq()"],
+    "answer": "unique()"
+  },
+  {
+    "question": "What does the !default flag indicate in a variable declaration?",
+    "options": [
+      "Variable should only be assigned if not already defined",
+      "Variable cannot be overridden",
+      "Variable has default browser value",
+      "Variable is deprecated"
+    ],
+    "answer": "Variable should only be assigned if not already defined"
+  },
+  {
+    "question": "Which Sass feature allows you to define styles that won't be compiled unless extended?",
+    "options": ["Silent classes", "Placeholder selectors", "Abstract mixins", "Dormant rules"],
+    "answer": "Placeholder selectors"
+  },
+  {
+    "question": "What is the correct syntax for a map in Sass?",
+    "options": [
+      "$map: (key: value, key2: value2)",
+      "$map: [key: value, key2: value2]",
+      "$map: {key: value, key2: value2}",
+      "$map: key value, key2 value2"
+    ],
+    "answer": "$map: (key: value, key2: value2)"
+  },
+  {
+    "question": "Which function returns the keys of a Sass map?",
+    "options": ["keys()", "map-keys()", "get-keys()", "list-keys()"],
+    "answer": "map-keys()"
+  },
+  {
+    "question": "What does the @extend directive NOT do?",
+    "options": [
+      "Copy styles from one selector to another",
+      "Combine selectors that share styles",
+      "Support interpolation in the selector",
+      "Work with placeholder selectors"
+    ],
+    "answer": "Support interpolation in the selector"
+  },
+  {
+    "question": "Which Sass function checks if a map contains a specific key?",
+    "options": [
+      "map-has-key()",
+      "map-contains()",
+      "map-exists()",
+      "has-key()"
+    ],
+    "answer": "map-has-key()"
+  },
+  {
+    "question": "What is the purpose of the @supports directive in Sass?",
+    "options": [
+      "Check for CSS feature support",
+      "Provide fallback styles",
+      "Both of the above",
+      "Neither - @supports is CSS not Sass"
+    ],
+    "answer": "Neither - @supports is CSS not Sass"
+  },
+  {
+    "question": "Which Sass function converts a unitless number to a percentage?",
+    "options": [
+      "percent()",
+      "percentage()",
+      "to-percent()",
+      "convert-percent()"
+    ],
+    "answer": "percentage()"
+  },
+  {
+    "question": "What is the correct way to interpolate a variable in a property name?",
+    "options": [
+      "margin-#{$side}: 10px",
+      "margin-${side}: 10px",
+      "margin-!side: 10px",
+      "margin-@side: 10px"
+    ],
+    "answer": "margin-#{$side}: 10px"
+  },
+  {
+    "question": "Which Sass function returns the complement of a color?",
+    "options": [
+      "complement()",
+      "invert()",
+      "opposite()",
+      "color-complement()"
+    ],
+    "answer": "complement()"
+  },
+  {
+    "question": "What does the @forward rule's 'hide' keyword do?",
+    "options": [
+      "Prevents members from being visible to downstream files",
+      "Makes members private to the current file",
+      "Delays loading of members",
+      "Deprecates members"
+    ],
+    "answer": "Prevents members from being visible to downstream files"
+  },
+  {
+    "question": "Which Sass function mixes two colors together?",
+    "options": ["blend()", "mix()", "combine()", "merge-colors()"],
+    "answer": "mix()"
+  },
+  {
+    "question": "What is the purpose of the @media directive in Sass?",
+    "options": [
+      "To nest media queries within selectors",
+      "To define breakpoint variables",
+      "To create media query mixins",
+      "All of the above"
+    ],
+    "answer": "To nest media queries within selectors"
+  },
+  {
+    "question": "Which Sass function returns the saturation component of a color?",
+    "options": ["saturation()", "color-saturation()", "get-saturation()", "s()"],
+    "answer": "saturation()"
+  },
+  {
+    "question": "What does the @forward rule's 'prefix' option do?",
+    "options": [
+      "Adds a prefix to all forwarded members",
+      "Sets vendor prefixing rules",
+      "Prefixes URLs in the stylesheet",
+      "Adds namespace prefixes"
+    ],
+    "answer": "Adds a prefix to all forwarded members"
+  },
+  {
+    "question": "Which Sass function returns the value associated with a map key?",
+    "options": ["map-get()", "get-value()", "map-value()", "value()"],
+    "answer": "map-get()"
+  },
+  {
+    "question": "What is the purpose of the @charset directive in Sass?",
+    "options": [
+      "Specify character encoding of the stylesheet",
+      "Define character sets for fonts",
+      "Create character maps",
+      "Sass doesn't use @charset"
+    ],
+    "answer": "Specify character encoding of the stylesheet"
+  },
+  {
+    "question": "Which Sass function returns the lightness component of a color?",
+    "options": ["lightness()", "color-lightness()", "get-lightness()", "l()"],
+    "answer": "lightness()"
+  },
+  {
+    "question": "What does the @use rule's 'with' clause allow?",
+    "options": [
+      "Configure a module's variables",
+      "Import with conditions",
+      "Combine multiple modules",
+      "Enable features"
+    ],
+    "answer": "Configure a module's variables"
+  },
+  {
+    "question": "Which Sass function converts a color to grayscale?",
+    "options": [
+      "grayscale()",
+      "desaturate(100%)",
+      "remove-color()",
+      "Both grayscale() and desaturate(100%)"
+    ],
+    "answer": "Both grayscale() and desaturate(100%)"
+  },
+  {
+    "question": "What is the purpose of the @extend-only directive?",
+    "options": [
+      "No such directive exists in Sass",
+      "Limit extensions to specific selectors",
+      "Create abstract base styles",
+      "Prevent direct use of selectors"
+    ],
+    "answer": "No such directive exists in Sass"
+  },
+  {
+    "question": "Which Sass function increases a color's opacity?",
+    "options": [
+      "opacify()",
+      "fade-in()",
+      "increase-opacity()",
+      "Both opacify() and fade-in()"
+    ],
+    "answer": "Both opacify() and fade-in()"
+  },
+  {
+    "question": "What does the @forward rule's 'show' keyword do?",
+    "options": [
+      "Makes specific members visible to downstream files",
+      "Displays members in the console",
+      "Enables debugging for members",
+      "No such keyword exists"
+    ],
+    "answer": "Makes specific members visible to downstream files"
+  },
+  {
+    "question": "Which Sass function returns the hue component of a color?",
+    "options": ["hue()", "color-hue()", "get-hue()", "h()"],
+    "answer": "hue()"
+  },
+  {
+    "question": "What is the purpose of the @import directive in modern Sass?",
+    "options": [
+      "Legacy way to import files - @use is preferred",
+      "Import CSS files only",
+      "Combine multiple partials",
+      "Import node modules"
+    ],
+    "answer": "Legacy way to import files - @use is preferred"
+  },
+  {
+    "question": "Which Sass function checks if a value is a number?",
+    "options": [
+      "is-number()",
+      "number-check()",
+      "type-is-number()",
+      "is-numeric()"
+    ],
+    "answer": "is-number()"
+  },
+  {
+    "question": "What does the @use rule's 'hide' keyword do?",
+    "options": [
+      "Prevents members from being visible in current file",
+      "Makes members private to the module",
+      "Temporarily disables members",
+      "No such keyword exists"
+    ],
+    "answer": "Prevents members from being visible in current file"
+  },
+  {
+    "question": "Which Sass function returns the alpha (transparency) channel of a color?",
+    "options": [
+      "alpha()",
+      "opacity()",
+      "transparency()",
+      "get-alpha()"
+    ],
+    "answer": "alpha()"
+  },
+  {
+    "question": "What is the purpose of the @function directive's @return statement?",
+    "options": [
+      "Specify the function's output value",
+      "Return control to the caller",
+      "Both of the above",
+      "Neither - @return isn't valid Sass"
+    ],
+    "answer": "Specify the function's output value"
+  },
+  {
+    "question": "What is the purpose of the @at-root directive with a selector?",
+    "options": [
+      "Bubble nested rules to root level with specified selector",
+      "Create root-level variables",
+      "Reference the document root element",
+      "Reset selector inheritance"
+    ],
+    "answer": "Bubble nested rules to root level with specified selector"
+  },
+  {
+    "question": "Which Sass function converts HSL values to a color?",
+    "options": [
+      "hsl()",
+      "hsl-to-color()",
+      "create-hsl()",
+      "All of the above"
+    ],
+    "answer": "hsl()"
+  },
+  {
+    "question": "What does the @error directive do when executed?",
+    "options": [
+      "Stops compilation with error message",
+      "Creates CSS error styling",
+      "Logs to browser console",
+      "Continues compilation with warning"
+    ],
+    "answer": "Stops compilation with error message"
+  },
+  {
+    "question": "Which Sass function returns the unit of a number?",
+    "options": [
+      "unit()",
+      "get-unit()",
+      "number-unit()",
+      "unit-of()"
+    ],
+    "answer": "unit()"
+  },
+  {
+    "question": "What is the purpose of the @while directive compared to @for?",
+    "options": [
+      "More flexible looping with custom conditions",
+      "Faster iteration over lists",
+      "Better for fixed number iterations",
+      "No difference - they're interchangeable"
+    ],
+    "answer": "More flexible looping with custom conditions"
+  },
+  {
+    "question": "Which Sass function returns the absolute value of a number?",
+    "options": [
+      "abs()",
+      "absolute()",
+      "positive()",
+      "magnitude()"
+    ],
+    "answer": "abs()"
+  },
+  {
+    "question": "What does the @forward rule's visibility control NOT affect?",
+    "options": [
+      "Original module's members",
+      "Downstream access to members",
+      "Current file's access to members",
+      "All of the above are affected"
+    ],
+    "answer": "Original module's members"
+  },
+  {
+    "question": "Which Sass function returns the ceiling of a number?",
+    "options": [
+      "ceil()",
+      "ceiling()",
+      "round-up()",
+      "top()"
+    ],
+    "answer": "ceil()"
+  },
+  {
+    "question": "What is the purpose of the @use rule's namespace?",
+    "options": [
+      "Prevent naming collisions between modules",
+      "Organize CSS output",
+      "Both of the above",
+      "Neither - namespaces are deprecated"
+    ],
+    "answer": "Prevent naming collisions between modules"
+  },
+  {
+    "question": "Which Sass function returns the floor of a number?",
+    "options": [
+      "floor()",
+      "ground()",
+      "round-down()",
+      "bottom()"
+    ],
+    "answer": "floor()"
+  },
+  {
+    "question": "What does the @debug directive output to?",
+    "options": [
+      "Sass compilation terminal",
+      "Browser console",
+      "CSS output comments",
+      "Debug log file"
+    ],
+    "answer": "Sass compilation terminal"
+  },
+  {
+    "question": "Which Sass function returns a random number?",
+    "options": [
+      "random()",
+      "rand()",
+      "random-number()",
+      "math-random()"
+    ],
+    "answer": "random()"
+  },
+  {
+    "question": "What is the purpose of the @content directive in mixins?",
+    "options": [
+      "Inject passed style blocks into mixin",
+      "Include external content",
+      "Define CSS content property values",
+      "Pass mixin results to other mixins"
+    ],
+    "answer": "Inject passed style blocks into mixin"
+  },
+  {
+    "question": "Which Sass function returns the sine of an angle?",
+    "options": [
+      "sin()",
+      "sine()",
+      "math-sin()",
+      "trig-sin()"
+    ],
+    "answer": "sin()"
+  },
+  {
+    "question": "What does the @warn directive do when executed?",
+    "options": [
+      "Prints message without stopping compilation",
+      "Creates CSS warning styling",
+      "Logs to browser console",
+      "Stops compilation with warning"
+    ],
+    "answer": "Prints message without stopping compilation"
+  },
+  {
+    "question": "Which Sass function returns the cosine of an angle?",
+    "options": [
+      "cos()",
+      "cosine()",
+      "math-cos()",
+      "trig-cos()"
+    ],
+    "answer": "cos()"
+  },
+  {
+    "question": "What is the purpose of the @extend directive's optional flag?",
+    "options": [
+      "Prevent errors if selector doesn't exist",
+      "Make extension conditional",
+      "Both of the above",
+      "Neither - no such flag exists"
+    ],
+    "answer": "Prevent errors if selector doesn't exist"
+  },
+  {
+    "question": "Which Sass function returns the tangent of an angle?",
+    "options": [
+      "tan()",
+      "tangent()",
+      "math-tan()",
+      "trig-tan()"
+    ],
+    "answer": "tan()"
+  },
+  {
+    "question": "What does the @use rule's configuration do to the original module?",
+    "options": [
+      "Nothing - it only affects current imports",
+      "Permanently changes module variables",
+      "Creates module variants",
+      "Depends on !global flag"
+    ],
+    "answer": "Nothing - it only affects current imports"
+  },
+  {
+    "question": "Which Sass function returns the arctangent of a value?",
+    "options": [
+      "atan()",
+      "arctan()",
+      "math-atan()",
+      "inverse-tan()"
+    ],
+    "answer": "atan()"
+  },
+  {
+    "question": "What is the purpose of the @forward rule's prefix option?",
+    "options": [
+      "Avoid naming collisions between modules",
+      "Create vendor-prefixed CSS",
+      "Both of the above",
+      "Neither - prefix is deprecated"
+    ],
+    "answer": "Avoid naming collisions between modules"
+  },
+  {
+    "question": "What is the purpose of the meta.module-variables() function?",
+    "options": [
+      "Get variables defined in a module",
+      "Create module-scoped variables",
+      "List all available CSS variables",
+      "Import variables from Node modules"
+    ],
+    "answer": "Get variables defined in a module"
+  },
+  {
+    "question": "Which Sass function returns the closest matching color from a list?",
+    "options": [
+      "color-match()",
+      "closest-color()",
+      "color-nearest()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  },
+  {
+    "question": "What does the meta.load-css() mixin do?",
+    "options": [
+      "Loads CSS from a URL at compile-time",
+      "Inlines @import rules in output CSS",
+      "Dynamically loads CSS in the browser",
+      "No such mixin exists in Sass"
+    ],
+    "answer": "No such mixin exists in Sass"
+  },
+  {
+    "question": "Which Sass feature allows creating recursive functions?",
+    "options": [
+      "@recurse directive",
+      "Functions can call themselves",
+      "recursive keyword",
+      "Sass doesn't support recursion"
+    ],
+    "answer": "Functions can call themselves"
+  },
+  {
+    "question": "What is the purpose of the meta.get-function() function?",
+    "options": [
+      "Get a reference to another function",
+      "Check if function exists",
+      "List all available functions",
+      "Import functions from modules"
+    ],
+    "answer": "Get a reference to another function"
+  },
+  {
+    "question": "Which Sass function converts a string to a list?",
+    "options": [
+      "string-to-list()",
+      "str-split()",
+      "list()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  },
+  {
+    "question": "What does the @forward rule's show/hide syntax support?",
+    "options": [
+      "Only individual members",
+      "Member patterns with wildcards",
+      "Regular expressions",
+      "Both individual members and patterns"
+    ],
+    "answer": "Both individual members and patterns"
+  },
+  {
+    "question": "Which Sass function returns the current selector as a string?",
+    "options": [
+      "selector.current()",
+      "& as string",
+      "selector-string()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  },
+  {
+    "question": "What is the purpose of the meta.global-variable-exists() function?",
+    "options": [
+      "Check for globally-scoped variables",
+      "Create global variables",
+      "List all global variables",
+      "Import global variables"
+    ],
+    "answer": "Check for globally-scoped variables"
+  },
+  {
+    "question": "Which Sass feature allows creating private module members?",
+    "options": [
+      "- prefix",
+      "_ prefix",
+      "!private flag",
+      "No built-in privacy system"
+    ],
+    "answer": "No built-in privacy system"
+  },
+  {
+    "question": "What does the meta.inspect() function return?",
+    "options": [
+      "String representation of a value",
+      "Type information about a value",
+      "Debug information about a value",
+      "The value unchanged"
+    ],
+    "answer": "String representation of a value"
+  },
+  {
+    "question": "Which Sass function returns the current mixin name?",
+    "options": [
+      "mixin.current()",
+      "current-mixin()",
+      "meta.mixin-name()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  },
+  {
+    "question": "What is the purpose of the meta.calc-args() function?",
+    "options": [
+      "Parse CSS calc() arguments",
+      "Create calc() expressions",
+      "Validate math expressions",
+      "No such function exists"
+    ],
+    "answer": "No such function exists"
+  },
+  {
+    "question": "Which Sass feature allows extending multiple selectors at once?",
+    "options": [
+      "@extend-all directive",
+      "Comma-separated selectors",
+      "Selector lists in @extend",
+      "Sass doesn't support this"
+    ],
+    "answer": "Selector lists in @extend"
+  },
+  {
+    "question": "What does the meta.type-of() function return for a map?",
+    "options": [
+      "map",
+      "object",
+      "hash",
+      "list"
+    ],
+    "answer": "map"
+  },
+  {
+    "question": "Which Sass function returns the current function name?",
+    "options": [
+      "function.current()",
+      "current-function()",
+      "meta.function-name()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  },
+  {
+    "question": "What is the purpose of the meta.call() function?",
+    "options": [
+      "Dynamically call functions by name",
+      "Create callback functions",
+      "Both of the above",
+      "No such function exists"
+    ],
+    "answer": "Dynamically call functions by name"
+  },
+  {
+    "question": "Which Sass feature allows extending across media query boundaries?",
+    "options": [
+      "@extend-media directive",
+      "!cross-media flag",
+      "Sass doesn't support this",
+      "Automatic with @extend"
+    ],
+    "answer": "Sass doesn't support this"
+  },
+  {
+    "question": "What does the meta.keywords() function do with mixin arguments?",
+    "options": [
+      "Get arbitrary keyword arguments",
+      "List all available mixin keywords",
+      "Validate keyword arguments",
+      "No such function exists"
+    ],
+    "answer": "Get arbitrary keyword arguments"
+  },
+  {
+    "question": "Which Sass function returns the current media query context?",
+    "options": [
+      "media.current()",
+      "current-media()",
+      "meta.media-context()",
+      "No built-in function exists"
+    ],
+    "answer": "No built-in function exists"
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which property is used to change the background color of an element?",
+    "options": ["color", "bgcolor", "background-color", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you add a background image to an element?",
+    "options": [
+      "background-image: url('image.jpg');",
+      "image: url('image.jpg');",
+      "bg-image: url('image.jpg');",
+      "background: image('image.jpg');"
+    ],
+    "answer": "background-image: url('image.jpg');"
+  },
+  {
+    "question": "Which property is used to change the text color of an element?",
+    "options": ["text-color", "font-color", "color", "text-style"],
+    "answer": "color"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-style", "text-size", "font-size", "text-style"],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": [
+      "font-weight: bold;",
+      "text-style: bold;",
+      "font: bold;",
+      "style: bold;"
+    ],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "How do you display a border around an element?",
+    "options": [
+      "border-line: 1px;",
+      "border-style: solid;",
+      "border-width: 1px;",
+      "border: 1px solid #000;"
+    ],
+    "answer": "border: 1px solid #000;"
+  },
+  {
+    "question": "Which property is used to change the left margin of an element?",
+    "options": ["margin-left", "indent", "padding-left", "left-margin"],
+    "answer": "margin-left"
+  },
+  {
+    "question": "How do you make a list display horizontally?",
+    "options": [
+      "list-style: horizontal;",
+      "list-direction: row;",
+      "display: inline;",
+      "display: flex;"
+    ],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": ["font-family", "font-style", "text-font", "font"],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you select an element with id 'header' in CSS?",
+    "options": [
+      ".header",
+      "#header",
+      "*header",
+      "header"
+    ],
+    "answer": "#header"
+  },
+  {
+    "question": "How do you select elements with class name 'menu' in CSS?",
+    "options": [
+      "#menu",
+      ".menu",
+      "*menu",
+      "menu"
+    ],
+    "answer": ".menu"
+  },
+  {
+    "question": "Which property is used to create space between elements' border and inner content?",
+    "options": ["margin", "spacing", "padding", "border-space"],
+    "answer": "padding"
+  },
+  {
+    "question": "How do you make a flexbox container?",
+    "options": [
+      "display: flexbox;",
+      "display: flex;",
+      "display: inline-flex;",
+      "display: block-flex;"
+    ],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "Which property is used to align flex items vertically in a flex container?",
+    "options": [
+      "flex-align",
+      "align-content",
+      "align-items",
+      "vertical-align"
+    ],
+    "answer": "align-items"
+  },
+  {
+    "question": "How do you apply CSS only when the screen is less than 600px wide?",
+    "options": [
+      "@media (max-width: 600px)",
+      "@media screen and (max-width: 600px)",
+      "@media (width < 600px)",
+      "@media screen (width <= 600px)"
+    ],
+    "answer": "@media screen and (max-width: 600px)"
+  },
+  {
+    "question": "Which property is used to create rounded corners?",
+    "options": [
+      "border-round",
+      "corner-radius",
+      "border-radius",
+      "round-corners"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "question": "How do you apply a shadow to text?",
+    "options": [
+      "text-shadow: 2px 2px 5px #000;",
+      "font-shadow: 2px 2px 5px #000;",
+      "shadow: text 2px 2px 5px #000;",
+      "text-effect: shadow 2px 2px 5px #000;"
+    ],
+    "answer": "text-shadow: 2px 2px 5px #000;"
+  },
+  {
+    "question": "Which property is used to specify the space between lines of text?",
+    "options": [
+      "line-spacing",
+      "line-height",
+      "spacing",
+      "text-space"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "question": "How do you make an element's display none without affecting the layout?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "opacity: 0;",
+      "hidden: true;"
+    ],
+    "answer": "visibility: hidden;"
+  },
+  {
+    "question": "Which CSS property controls the stacking order of positioned elements?",
+    "options": ["z-order", "stack-order", "z-index", "layer-index"],
+    "answer": "z-index"
+  },
+  {
+    "question": "How do you center an element horizontally using margin?",
+    "options": [
+      "margin: center;",
+      "margin: 0 center;",
+      "margin: 0 auto;",
+      "margin-auto: center;"
+    ],
+    "answer": "margin: 0 auto;"
+  },
+  {
+    "question": "Which property is used to change the cursor type?",
+    "options": ["mouse-pointer", "cursor", "pointer-type", "cursor-style"],
+    "answer": "cursor"
+  },
+  {
+    "question": "How do you make text italic in CSS?",
+    "options": [
+      "font-style: italic;",
+      "text-style: italic;",
+      "font: italic;",
+      "italic: true;"
+    ],
+    "answer": "font-style: italic;"
+  },
+  {
+    "question": "Which property is used to control letter spacing?",
+    "options": ["letter-spacing", "text-spacing", "font-spacing", "character-spacing"],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "How do you remove the underline from a link?",
+    "options": [
+      "text-decoration: none;",
+      "text-style: no-underline;",
+      "decoration: none;",
+      "underline: none;"
+    ],
+    "answer": "text-decoration: none;"
+  },
+  {
+    "question": "Which property is used to create a transition effect?",
+    "options": ["transition", "animation", "transform", "effect"],
+    "answer": "transition"
+  },
+  {
+    "question": "How do you rotate an element 45 degrees?",
+    "options": [
+      "rotate: 45deg;",
+      "transform: rotate(45deg);",
+      "rotation: 45deg;",
+      "element-rotate: 45deg;"
+    ],
+    "answer": "transform: rotate(45deg);"
+  },
+  {
+    "question": "Which property is used to specify transparency of an element?",
+    "options": ["transparency", "opacity", "visibility", "alpha"],
+    "answer": "opacity"
+  },
+  {
+    "question": "How do you select all paragraph elements inside a div?",
+    "options": [
+      "div + p",
+      "div.p",
+      "div p",
+      "div > p"
+    ],
+    "answer": "div p"
+  },
+  {
+    "question": "Which property is used to create space between the border and outer elements?",
+    "options": ["padding", "margin", "spacing", "border-spacing"],
+    "answer": "margin"
+  },
+  {
+    "question": "How do you make a grid container?",
+    "options": [
+      "display: grid;",
+      "display: block-grid;",
+      "display: flex-grid;",
+      "grid: true;"
+    ],
+    "answer": "display: grid;"
+  },
+  {
+    "question": "Which property aligns grid items along the inline (row) axis?",
+    "options": ["align-items", "justify-items", "grid-align", "place-items"],
+    "answer": "justify-items"
+  },
+  {
+    "question": "How do you create a fixed background image that doesn't scroll with the page?",
+    "options": [
+      "background-fixed: true;",
+      "background-scroll: none;",
+      "background-attachment: fixed;",
+      "background-position: fixed;"
+    ],
+    "answer": "background-attachment: fixed;"
+  },
+  {
+    "question": "Which pseudo-class selects an element when mouse is over it?",
+    "options": [":mouseover", ":hover", ":active", ":focus"],
+    "answer": ":hover"
+  },
+  {
+    "question": "How do you select the first letter of a paragraph?",
+    "options": [
+      "p::first-letter",
+      "p:first-letter",
+      "p.first-letter",
+      "p > first-letter"
+    ],
+    "answer": "p::first-letter"
+  },
+  {
+    "question": "Which property is used to specify how an image should fit in a container?",
+    "options": ["image-fit", "object-fit", "fit-image", "container-fit"],
+    "answer": "object-fit"
+  },
+  {
+    "question": "How do you create a smooth scroll behavior for the whole page?",
+    "options": [
+      "scroll-behavior: smooth;",
+      "page-scroll: smooth;",
+      "html { smooth-scroll: true; }",
+      "scroll-type: smooth;"
+    ],
+    "answer": "scroll-behavior: smooth;"
+  },
+  {
+    "question": "Which property is used to create a column layout?",
+    "options": ["column-count", "multi-column", "text-columns", "layout-columns"],
+    "answer": "column-count"
+  },
+  {
+    "question": "How do you prevent text from wrapping?",
+    "options": [
+      "white-space: nowrap;",
+      "text-wrap: none;",
+      "wrap: false;",
+      "text-nowrap: true;"
+    ],
+    "answer": "white-space: nowrap;"
+  },
+  {
+    "question": "Which CSS property creates a stacking context?",
+    "options": ["stacking-context", "z-context", "isolation", "layer-context"],
+    "answer": "isolation"
+  },
+  {
+    "question": "How do you create a smooth gradient transition between two colors?",
+    "options": [
+      "gradient: linear(to right, red, blue);",
+      "background: gradient(red, blue);",
+      "background: linear-gradient(to right, red, blue);",
+      "color-transition: red to blue;"
+    ],
+    "answer": "background: linear-gradient(to right, red, blue);"
+  },
+  {
+    "question": "Which property controls how flex items are aligned when there's extra space on the cross axis?",
+    "options": ["align-content", "justify-content", "flex-align", "cross-align"],
+    "answer": "align-content"
+  },
+  {
+    "question": "How do you create a CSS variable?",
+    "options": [
+      ":root { --main-color: #ff0000; }",
+      "var main-color = #ff0000;",
+      "css-variable: --main-color #ff0000;",
+      "$main-color: #ff0000;"
+    ],
+    "answer": ":root { --main-color: #ff0000; }"
+  },
+  {
+    "question": "Which pseudo-element selects the portion of an element that is selected by a user?",
+    "options": ["::selected", "::selection", ":selected-text", "::highlight"],
+    "answer": "::selection"
+  },
+  {
+    "question": "How do you create a sticky header that stays at the top when scrolling?",
+    "options": [
+      "position: static;",
+      "position: fixed;",
+      "position: sticky;",
+      "position: stay;"
+    ],
+    "answer": "position: sticky;"
+  },
+  {
+    "question": "Which property is used to create a reflection effect?",
+    "options": ["reflection", "box-reflect", "mirror-effect", "flip-effect"],
+    "answer": "box-reflect"
+  },
+  {
+    "question": "How do you enable hardware acceleration for animations?",
+    "options": [
+      "transform: translateZ(0);",
+      "animation: hardware-accelerate;",
+      "will-change: transform;",
+      "Both transform: translateZ(0) and will-change: transform"
+    ],
+    "answer": "Both transform: translateZ(0) and will-change: transform"
+  },
+  {
+    "question": "Which property controls how an element behaves during a transform?",
+    "options": ["transform-style", "transform-behavior", "transform-origin", "transform-property"],
+    "answer": "transform-origin"
+  },
+  {
+    "question": "How do you create a circular element?",
+    "options": [
+      "border-round: 50%;",
+      "shape: circle;",
+      "border-radius: 50%;",
+      "circle: true;"
+    ],
+    "answer": "border-radius: 50%;"
+  },
+  {
+    "question": "Which property controls the space between grid items?",
+    "options": ["grid-spacing", "gap", "grid-gap", "Both gap and grid-gap"],
+    "answer": "Both gap and grid-gap"
+  },
+  {
+    "question": "How do you create a blur effect on an element?",
+    "options": [
+      "filter: blur(5px);",
+      "effect: blur(5px);",
+      "blur: 5px;",
+      "backdrop-filter: blur(5px);"
+    ],
+    "answer": "filter: blur(5px);"
+  },
+  {
+    "question": "Which property is used to create a mask effect?",
+    "options": ["mask-image", "clip-path", "Both mask-image and clip-path", "filter-mask"],
+    "answer": "Both mask-image and clip-path"
+  },
+  {
+    "question": "How do you create a smooth cubic-bezier animation timing function?",
+    "options": [
+      "animation-timing: cubic-bezier(0.4, 0, 0.2, 1);",
+      "transition: cubic-bezier(0.4, 0, 0.2, 1);",
+      "timing-function: ease-in-out;",
+      "Both animation-timing-function and transition-timing-function"
+    ],
+    "answer": "Both animation-timing-function and transition-timing-function"
+  },
+  {
+    "question": "Which property is used to create a 3D transform space?",
+    "options": ["transform-3d", "perspective", "3d-space", "transform-style"],
+    "answer": "perspective"
+  },
+  {
+    "question": "How do you create a text gradient effect?",
+    "options": [
+      "text-gradient: linear-gradient(red, blue);",
+      "background-clip: text; color: transparent;",
+      "text-fill-color: gradient(red, blue);",
+      "gradient-text: true;"
+    ],
+    "answer": "background-clip: text; color: transparent;"
+  },
+  {
+    "question": "Which property controls how flex items grow relative to each other?",
+    "options": ["flex-grow", "flex-scale", "grow-factor", "flex-expand"],
+    "answer": "flex-grow"
+  },
+  {
+    "question": "How do you create a parallax scrolling effect?",
+    "options": [
+      "parallax: true;",
+      "background-attachment: fixed;",
+      "scroll-effect: parallax;",
+      "transform: translateZ(-1px);"
+    ],
+    "answer": "background-attachment: fixed;"
+  },
+  {
+    "question": "Which property is used to create a color variable in CSS?",
+    "options": ["color-var", "--color", "var-color", "custom-property"],
+    "answer": "--color"
+  },
+  {
+    "question": "How do you create a responsive image that scales with its container?",
+    "options": [
+      "img { responsive: true; }",
+      "img { width: 100%; height: auto; }",
+      "img { scale: auto; }",
+      "img { flex-image: true; }"
+    ],
+    "answer": "img { width: 100%; height: auto; }"
+  },
+  {
+    "question": "Which CSS property allows you to style the first line of a text element differently?",
+    "options": ["::first-line", ":first-line", "first-line", "text-first-line"],
+    "answer": "::first-line"
+  },
+  {
+    "question": "How would you create a drop cap effect using CSS?",
+    "options": [
+      "p::first-letter { font-size: 200%; }",
+      "p:first-letter { float: left; font-size: 300%; }",
+      "p:dropcap { initial-size: 3em; }",
+      "p::first-letter { float: left; font-size: 3em; }"
+    ],
+    "answer": "p::first-letter { float: left; font-size: 3em; }"
+  },
+  {
+    "question": "Which property controls how a flex item shrinks relative to other flex items?",
+    "options": ["flex-shrink", "shrink-factor", "flex-min", "item-shrink"],
+    "answer": "flex-shrink"
+  },
+  {
+    "question": "How do you create a CSS-only tooltip that appears on hover?",
+    "options": [
+      "[data-tooltip]:hover::after { content: attr(data-tooltip); }",
+      ".tooltip:hover + .tooltip-text { display: block; }",
+      "Both options work",
+      "Neither option works"
+    ],
+    "answer": "Both options work"
+  },
+  {
+    "question": "Which property would you use to create a smooth color transition on hover?",
+    "options": [
+      "transition: background-color 0.3s ease;",
+      "hover-effect: smooth;",
+      "animate: color-change 0.3s;",
+      "color-transition: 0.3s;"
+    ],
+    "answer": "transition: background-color 0.3s ease;"
+  },
+  {
+    "question": "How do you create a responsive iframe that maintains a 16:9 aspect ratio?",
+    "options": [
+      ".container { position: relative; padding-bottom: 56.25%; }",
+      ".iframe { aspect-ratio: 16/9; }",
+      "Both options work",
+      "Neither option works"
+    ],
+    "answer": "Both options work"
+  },
+  {
+    "question": "Which property controls how columns are filled in a multi-column layout?",
+    "options": ["column-fill", "fill-columns", "balance-columns", "column-balance"],
+    "answer": "column-fill"
+  },
+  {
+    "question": "How do you create a CSS-only triangle?",
+    "options": [
+      ".triangle { width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid red; }",
+      ".triangle { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }",
+      "Both options work",
+      "Neither option works"
+    ],
+    "answer": "Both options work"
+  },
+  {
+    "question": "Which pseudo-class targets form elements that are invalid?",
+    "options": [":invalid", ":not-valid", ":error", ":form-error"],
+    "answer": ":invalid"
+  },
+  {
+    "question": "How do you create a zebra-striping effect for table rows?",
+    "options": [
+      "tr:nth-child(odd) { background: #eee; }",
+      "tr:striped { background: #eee; }",
+      "table { stripe: odd; }",
+      "tr.alternate { background: #eee; }"
+    ],
+    "answer": "tr:nth-child(odd) { background: #eee; }"
+  },
+  {
+    "question": "Which property allows text to overflow with an ellipsis?",
+    "options": [
+      "text-overflow: ellipsis;",
+      "overflow-text: ellipsis;",
+      "ellipsis: true;",
+      "text-truncate: ellipsis;"
+    ],
+    "answer": "text-overflow: ellipsis;"
+  },
+  {
+    "question": "How do you create a full-page overlay that covers everything?",
+    "options": [
+      ".overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }",
+      ".overlay { position: absolute; inset: 0; }",
+      "Both options work",
+      "Neither option works"
+    ],
+    "answer": "Both options work"
+  },
+  {
+    "question": "Which property controls how an element blends with its background?",
+    "options": ["mix-blend-mode", "background-blend", "blend-mode", "element-blend"],
+    "answer": "mix-blend-mode"
+  },
+  {
+    "question": "How do you create a smooth scrolling anchor link effect?",
+    "options": [
+      "html { scroll-behavior: smooth; }",
+      "a[href^='#'] { smooth-scroll: true; }",
+      "anchor { transition: scroll 0.3s; }",
+      "All of the above"
+    ],
+    "answer": "html { scroll-behavior: smooth; }"
+  },
+  {
+    "question": "Which property creates a color transition between two points?",
+    "options": ["color-transition", "gradient", "color-interpolation", "Both gradient options"],
+    "answer": "Both gradient options"
+  },
+  {
+    "question": "How do you create a responsive square that maintains aspect ratio?",
+    "options": [
+      ".square { aspect-ratio: 1/1; }",
+      ".square::after { content: ''; display: block; padding-top: 100%; }",
+      "Both options work",
+      "Neither option works"
+    ],
+    "answer": "Both options work"
+  },
+  {
+    "question": "Which property controls how text is wrapped inside its container?",
+    "options": ["text-wrap", "word-wrap", "overflow-wrap", "Both word-wrap and overflow-wrap"],
+    "answer": "Both word-wrap and overflow-wrap"
+  },
+  {
+    "question": "How do you create a CSS-only lightbox effect?",
+    "options": [
+      "Using :target pseudo-class",
+      "Using checkbox hack",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Both methods work"
+  },
+  {
+    "question": "Which property controls how a background image is sized relative to its container?",
+    "options": ["background-fit", "background-size", "image-size", "bg-resize"],
+    "answer": "background-size"
+  },
+  {
+    "question": "How do you create a CSS-only accordion?",
+    "options": [
+      "Using :target pseudo-class",
+      "Using checkbox hack with adjacent sibling selector",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Both methods work"
+  },
+  {
+    "question": "Which CSS property allows you to control the rendering behavior of elements during animations?",
+    "options": ["animation-rendering", "will-change", "render-mode", "optimize-rendering"],
+    "answer": "will-change"
+  },
+  {
+    "question": "How would you create a masonry layout using only CSS?",
+    "options": [
+      "display: masonry;",
+      "grid-template-rows: masonry;",
+      "flex-direction: masonry;",
+      "CSS alone cannot create masonry layouts"
+    ],
+    "answer": "grid-template-rows: masonry;"
+  },
+  {
+    "question": "Which property controls how an element's content should behave when it overflows its container in the block direction?",
+    "options": ["overflow-y", "overflow-block", "block-overflow", "overflow-inline"],
+    "answer": "overflow-block"
+  },
+  {
+    "question": "How do you create a color scheme that responds to the user's system preferences?",
+    "options": [
+      "@media (prefers-color-scheme: dark)",
+      "@media (dark-mode: enabled)",
+      "@media (system-theme: dark)",
+      "@media (color-preference: dark)"
+    ],
+    "answer": "@media (prefers-color-scheme: dark)"
+  },
+  {
+    "question": "Which property allows you to control how a replaced element (like an image) fits within its container?",
+    "options": ["object-position", "fit-content", "content-fit", "object-fit"],
+    "answer": "object-fit"
+  },
+  {
+    "question": "How would you implement a CSS-only dark/light mode toggle?",
+    "options": [
+      "Using :target pseudo-class",
+      "Using checkbox hack with CSS variables",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Using checkbox hack with CSS variables"
+  },
+  {
+    "question": "Which property allows you to control the minimum size of flex items?",
+    "options": ["flex-min", "min-flex-size", "flex-basis", "flex-shrink"],
+    "answer": "flex-basis"
+  },
+  {
+    "question": "How do you create a smooth parallax scrolling effect with CSS?",
+    "options": [
+      "perspective: 1px; transform-style: preserve-3d;",
+      "scroll-behavior: parallax;",
+      "animation: parallax 1s infinite;",
+      "transform: translateZ(-1px);"
+    ],
+    "answer": "perspective: 1px; transform-style: preserve-3d;"
+  },
+  {
+    "question": "Which property allows you to control how a browser should render text for better readability?",
+    "options": ["text-rendering", "font-smoothing", "text-optimize", "font-rendering"],
+    "answer": "text-rendering"
+  },
+  {
+    "question": "How would you create a responsive grid with auto-placed items that fill empty spaces?",
+    "options": [
+      "grid-auto-flow: dense;",
+      "grid-fill: auto;",
+      "grid-pack: justify;",
+      "grid-items: fill;"
+    ],
+    "answer": "grid-auto-flow: dense;"
+  },
+  {
+    "question": "Which property allows you to control the alignment of grid items along the block axis?",
+    "options": ["align-items", "justify-items", "place-items", "grid-align"],
+    "answer": "align-items"
+  },
+  {
+    "question": "How do you create a CSS-only carousel/slider?",
+    "options": [
+      "Using scroll-snap properties",
+      "Using animation with @keyframes",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Using scroll-snap properties"
+  },
+  {
+    "question": "Which property allows you to control how a browser should handle hyphenation?",
+    "options": ["hyphens", "text-hyphenate", "word-break", "line-break"],
+    "answer": "hyphens"
+  },
+  {
+    "question": "How would you implement prefers-reduced-motion to respect user motion preferences?",
+    "options": [
+      "@media (prefers-reduced-motion: reduce)",
+      "@media (reduce-motion: preferred)",
+      "@media (motion-preference: reduced)",
+      "@media (animation-preference: none)"
+    ],
+    "answer": "@media (prefers-reduced-motion: reduce)"
+  },
+  {
+    "question": "Which property allows you to control the stacking order of grid items?",
+    "options": ["z-index", "grid-layer", "order", "stack-level"],
+    "answer": "z-index"
+  },
+  {
+    "question": "How do you create a sticky footer that stays at the bottom of short pages?",
+    "options": [
+      "footer { position: sticky; bottom: 0; }",
+      "Using CSS Grid with min-height: 100vh",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Both methods work"
+  },
+  {
+    "question": "Which property allows you to control how a browser should render fonts?",
+    "options": ["font-rendering", "font-smooth", "font-display", "text-rendering"],
+    "answer": "font-display"
+  },
+  {
+    "question": "How would you create a responsive typography system that scales with viewport width?",
+    "options": [
+      "Using clamp() function",
+      "Using vw units",
+      "Both methods work",
+      "Neither method works reliably"
+    ],
+    "answer": "Using clamp() function"
+  },
+  {
+    "question": "Which property allows you to control how a browser should handle line breaking of CJK (Chinese, Japanese, Korean) text?",
+    "options": ["line-break", "word-break", "text-wrap", "hyphens"],
+    "answer": "line-break"
+  },
+  {
+    "question": "How would you implement a CSS-only responsive navigation menu that transforms into a hamburger menu on mobile?",
+    "options": [
+      "Using checkbox hack",
+      "Using :target pseudo-class",
+      "Both methods work",
+      "Neither method works without JavaScript"
+    ],
+    "answer": "Both methods work"
+  }
+]

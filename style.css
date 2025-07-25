@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+body{
+    background-color: #FDF6E5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.boxes{
+    min-width: 800px;
+    height: 400px;
+    background-color: #FBF9F5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    height: 100px;
+    width: 800px;
+    background-color: #FBF9F5;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+nav .topic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+nav .topic img{
+    height: 30px;
+    width: 30px;
+}
+nav .topic p{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.topic-disable{
+    display: none;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-space{
+    justify-content: space-between;
+}
+
+/* Hide the default checkbox */
+.toggle-input {
+            display: none;
+        }
+        
+/* Toggle switch container */
+.toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+            background-color: #ccc;
+            border-radius: 34px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        /* Toggle slider (circle) */
+.toggle-slider {
+            position: absolute;
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        
+        /* When checkbox is checked, change background and move slider */
+.toggle-input:checked + .toggle-switch {
+            background-color: purple;
+        }
+        
+.toggle-input:checked + .toggle-switch .toggle-slider {
+            transform: translateX(26px);
+        }
+
+.no-view{
+    display: none;
+}
+
+/* Hero section */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+button img{
+    height: 30px;
+    width: 30px;;
+}
+
+.hero .left h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+    color: black;
+    font-weight: 400;
+    
+}
+.hero .left h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.hero .left p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.hero .left h3{
+    font-size: 1.4rem;
+    max-width: 300px;
+}
+.hero .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.hero .right button{
+    width: 400px;
+    min-height: 50px;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.hero .right button:hover{
+    background-color: orange;
+}
+.hero .right button.selected {
+    background-color: purple !important;
+    color: white !important;
+}
+
+.submitBtn{
+    background-color: purple !important;
+    color: white !important;
+}
+
+
+
+.cards .hero .left{
+    margin: 10px 10px;
+}
+.cards .hero .left h3{
+    margin: 20px 0;
+}
+.cards .hero .left meter{
+    width: 200px;
+    height: 20px;
+    margin-top: 120px;
+}
+.cards .hero .left meter::-webkit-meter-optimum-value {
+    background: purple;
+  }
+
+.resultBox{
+    width: 800px;
+    height: 400px;
+    background-color: #FBF9F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.resultBox .result{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+}
+.vanish{
+    display: none;  
+}
+
+  /* theme change */
+  .body-dark{
+    background-color: #2C3949;
+    color: white;
+}
+
+.boxes-dark{
+    background-color: #3C4C67;
+    color: white;
+}

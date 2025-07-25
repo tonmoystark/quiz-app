@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS SASS JS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="justify-end">
+            <div class="topic topic-disable">
+            </div>
+            <label>
+                <input type="checkbox" class="toggle-input">
+                <span class="toggle-switch">
+                    <span class="toggle-slider"></span>
+                </span>
+            </label>
+    </nav>
+    <div class="box1 boxes">
+        <div class="hero">
+            <div class="left">
+                <h1>Welcome to <span> The Quiz</span></h1>
+                <p>Select to start the quiz</p>
+            </div>
+            <div class="right">
+                <button class="selection">
+                    <img src="./svgs/html-icon.svg" alt="">
+                    <p>HTML</p>
+                </button>
+                <button class="selection">
+                    <img src="./svgs/css-icon.svg" alt="">
+                    <p>CSS</p>
+                </button>
+                <button class="selection">
+                    <img src="./svgs/javascript-icon.svg" alt="">
+                    <p>JavaScript</p>
+                </button>
+                <button class="selection">
+                    <img src="./svgs/sass-icon.svg" alt="">
+                    <p>SASS</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- box1 -->
+
+    <div class="box2 boxes no-view html cards">
+        <div class="hero">
+            <div class="left">
+                <p>Question <span>1</span> of 10</p>
+                <h3></h3>
+                <meter class="meter1" value="1" min="0" max="10"></meter>
+            </div>
+            <div class="right">
+                <button>
+                    <img src="./svgs/a.svg" alt="">
+                    <p>option</p>
+                </button>
+                <button>
+                    <img src="./svgs/b.svg" alt="">
+                    <p>option</p>
+                </button>
+                <button>
+                    <img src="./svgs/c.svg" alt="">
+                    <p>option</p>
+                </button>
+                <button>
+                    <img src="./svgs/d.svg" alt="">
+                    <p>option</p>
+                </button>
+                <button type="submit" class="submitBtn">Submit</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- box2 -->
+
+    <div class="box3 boxes cards css no-view">
+        <div class="hero">
+            <div class="left">
+                <p>Question <span>1</span> of 10</p>
+                <h3></h3>
+                <meter class="meter1" value="1" min="0" max="10"></meter>
+                
+            </div>
+            <div class="right">
+                <button>
+                    <img src="./svgs/a.svg" alt="">
+                    <p>HTML</p>
+                </button>
+                <button>
+                    <img src="./svgs/b.svg" alt="">
+                    <p>CSS</p>
+                </button>
+                <button>
+                    <img src="./svgs/c.svg" alt="">
+                    <p>JavaScript</p>
+                </button>
+                <button>
+                    <img src="./svgs/d.svg" alt="">
+                    <p>SASS</p>
+                </button>
+                <button type="submit" class="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- box3 -->
+
+     <div class="box4 boxes no-view javascript cards">
+        <div class="hero">
+            <div class="left">
+                <p>Question <span>1</span> of 10</p>
+                <h3></h3>
+                <meter class="meter1" value="1" min="0" max="10"></meter>
+            </div>
+            <div class="right">
+                <button>
+                    <img src="./svgs/a.svg" alt="">
+                    <p>HTML</p>
+                </button>
+                <button>
+                    <img src="./svgs/b.svg" alt="">
+                    <p>CSS</p>
+                </button>
+                <button>
+                    <img src="./svgs/c.svg" alt="">
+                    <p>JavaScript</p>
+                </button>
+                <button>
+                    <img src="./svgs/d.svg" alt="">
+                    <p>SASS</p>
+                </button>
+                <button type="submit" class="submitBtn">Submit</button>
+            </div>
+        </div>
+     </div>
+     <!-- box4 -->
+      <div class="box1 boxes no-view sass cards">
+        <div class="hero">
+            <div class="left">
+                <p>Question <span>1</span> of 10</p>
+                <h3></h3>
+                <meter class="meter1" value="1" min="0" max="10"></meter>
+            </div>
+            <div class="right">
+                <button>
+                    <img src="./svgs/a.svg" alt="">
+                    <p>HTML</p>
+                </button>
+                <button>
+                    <img src="./svgs/b.svg" alt="">
+                    <p>CSS</p>
+                </button>
+                <button>
+                    <img src="./svgs/c.svg" alt="">
+                    <p>JavaScript</p>
+                </button>
+                <button>
+                    <img src="./svgs/d.svg" alt="">
+                    <p>SASS</p>
+                </button>
+                <button type="submit" class="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- box5 -->
+     <div class="resultBox vanish">
+        <meter value="0" min="0" max="10" class="result"></meter>
+        <h1 class="total-point">You have scored </h1>
+     </div>
+    <script src="./formula.js"></script>
+</body>
+</html>

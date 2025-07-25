@@ -1,0 +1,942 @@
+[
+  {
+    "question": "What is the correct way to declare a JavaScript variable?",
+    "options": [
+      "variable name;",
+      "v name;",
+      "let name;",
+      "All of the above"
+    ],
+    "answer": "let name;"
+  },
+  {
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": ["==", "===", "=", "!="],
+    "answer": "==="
+  },
+  {
+    "question": "What will typeof null return?",
+    "options": ["'null'", "'object'", "'undefined'", "'none'"],
+    "answer": "'object'"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunc() {}",
+      "let myFunc = function() {}",
+      "let myFunc = () => {}",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output of: console.log(2 + '2')?",
+    "options": ["4", "'22'", "NaN", "undefined"],
+    "answer": "'22'"
+  },
+  {
+    "question": "Which method adds an element to the end of an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "What does the 'this' keyword refer to in a method?",
+    "options": [
+      "The function itself",
+      "The global object",
+      "The object that owns the method",
+      "The DOM element"
+    ],
+    "answer": "The object that owns the method"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A function that has access to its outer function's scope",
+      "A way to close a program",
+      "A built-in method",
+      "A type of loop"
+    ],
+    "answer": "A function that has access to its outer function's scope"
+  },
+  {
+    "question": "Which method converts JSON to a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.toObject()",
+      "JSON.convert()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "What will Boolean('false') return?",
+    "options": ["false", "true", "undefined", "NaN"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive?",
+    "options": [
+      "To enforce stricter type checking",
+      "To enforce stricter parsing and error handling",
+      "To make JavaScript run faster",
+      "To enable experimental features"
+    ],
+    "answer": "To enforce stricter parsing and error handling"
+  },
+  {
+    "question": "Which method removes the last element from an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What does the spread operator (...) do?",
+    "options": [
+      "Expands an iterable into individual elements",
+      "Combines multiple arrays",
+      "Creates a copy of an object",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "options": [
+      "Moving variable declarations to the top of their scope",
+      "A type of function",
+      "A way to handle errors",
+      "A DOM manipulation technique"
+    ],
+    "answer": "Moving variable declarations to the top of their scope"
+  },
+  {
+    "question": "What does the Array.map() method do?",
+    "options": [
+      "Creates a new array with results of calling a function on every element",
+      "Filters an array based on a condition",
+      "Reduces an array to a single value",
+      "Sorts an array"
+    ],
+    "answer": "Creates a new array with results of calling a function on every element"
+  },
+  {
+    "question": "Which of these is NOT a JavaScript framework/library?",
+    "options": ["React", "Angular", "Vue", "Django"],
+    "answer": "Django"
+  },
+  {
+    "question": "What is the purpose of the async/await syntax?",
+    "options": [
+      "To handle synchronous operations",
+      "To write asynchronous code that looks synchronous",
+      "To create web workers",
+      "To optimize performance"
+    ],
+    "answer": "To write asynchronous code that looks synchronous"
+  },
+  {
+    "question": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "answer": "false"
+  },
+  {
+    "question": "Which method creates a new array with all sub-array elements concatenated?",
+    "options": ["concat()", "join()", "flat()", "merge()"],
+    "answer": "flat()"
+  },
+  {
+    "question": "What does the localStorage object do?",
+    "options": [
+      "Stores data with no expiration date",
+      "Stores data for one session",
+      "Stores data on the server",
+      "All of the above"
+    ],
+    "answer": "Stores data with no expiration date"
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "options": [
+      "When an event triggers on the target element then bubbles up the DOM tree",
+      "When multiple events trigger simultaneously",
+      "A type of error handling",
+      "A performance optimization technique"
+    ],
+    "answer": "When an event triggers on the target element then bubbles up the DOM tree"
+  },
+  {
+    "question": "Which method returns the first element that matches a CSS selector?",
+    "options": [
+      "document.querySelector()",
+      "document.getElementById()",
+      "document.getElementsByClassName()",
+      "document.find()"
+    ],
+    "answer": "document.querySelector()"
+  },
+  {
+    "question": "What is a promise in JavaScript?",
+    "options": [
+      "An object representing the eventual completion of an async operation",
+      "A type of function",
+      "A variable declaration",
+      "A loop construct"
+    ],
+    "answer": "An object representing the eventual completion of an async operation"
+  },
+  {
+    "question": "What does the Array.reduce() method do?",
+    "options": [
+      "Executes a reducer function on each element resulting in a single output",
+      "Reduces the size of an array",
+      "Filters out elements from an array",
+      "Sorts an array in ascending order"
+    ],
+    "answer": "Executes a reducer function on each element resulting in a single output"
+  },
+  {
+    "question": "What is the purpose of the fetch API?",
+    "options": [
+      "To make HTTP requests",
+      "To query the DOM",
+      "To handle events",
+      "To create animations"
+    ],
+    "answer": "To make HTTP requests"
+  },
+  {
+    "question": "Which symbol is used for template literals?",
+    "options": ["$", "#", "`", "~"],
+    "answer": "`"
+  },
+  {
+    "question": "What is destructuring assignment in JavaScript?",
+    "options": [
+      "A way to unpack values from arrays or properties from objects",
+      "A way to destroy variables",
+      "A type of function",
+      "A way to handle errors"
+    ],
+    "answer": "A way to unpack values from arrays or properties from objects"
+  },
+  {
+    "question": "What is the purpose of the Set object?",
+    "options": [
+      "To store unique values of any type",
+      "To create key-value pairs",
+      "To define mathematical sets",
+      "To handle events"
+    ],
+    "answer": "To store unique values of any type"
+  },
+  {
+    "question": "Which method creates a new array with elements that pass a test?",
+    "options": ["map()", "filter()", "reduce()", "forEach()"],
+    "answer": "filter()"
+  },
+  {
+    "question": "What is the output of: console.log(typeof [])?",
+    "options": ["'array'", "'object'", "'undefined'", "'list'"],
+    "answer": "'object'"
+  },
+  {
+    "question": "What is the difference between let and const in JavaScript?",
+    "options": [
+      "let allows reassignment, const does not",
+      "const is block-scoped, let is function-scoped",
+      "let is hoisted, const is not",
+      "There is no difference"
+    ],
+    "answer": "let allows reassignment, const does not"
+  },
+  {
+    "question": "What does the 'new' keyword do in JavaScript?",
+    "options": [
+      "Creates a new variable",
+      "Creates a new instance of an object type",
+      "Declares a new function",
+      "Imports a new module"
+    ],
+    "answer": "Creates a new instance of an object type"
+  },
+  {
+    "question": "What is the purpose of the bind() method?",
+    "options": [
+      "To bind two objects together",
+      "To create a new function with a specific 'this' value",
+      "To bind event listeners",
+      "To concatenate strings"
+    ],
+    "answer": "To create a new function with a specific 'this' value"
+  },
+  {
+    "question": "What is a generator function in JavaScript?",
+    "options": [
+      "A function that generates random numbers",
+      "A function that can be exited and later re-entered",
+      "A function that creates other functions",
+      "A function that automatically executes"
+    ],
+    "answer": "A function that can be exited and later re-entered"
+  },
+  {
+    "question": "What does the Symbol data type represent?",
+    "options": [
+      "A unique identifier",
+      "A special character",
+      "A mathematical symbol",
+      "A string constant"
+    ],
+    "answer": "A unique identifier"
+  },
+  {
+    "question": "What is the purpose of the Proxy object?",
+    "options": [
+      "To create a proxy server",
+      "To define custom behavior for fundamental operations",
+      "To handle HTTP requests",
+      "To manage database connections"
+    ],
+    "answer": "To define custom behavior for fundamental operations"
+  },
+  {
+    "question": "What is memoization in JavaScript?",
+    "options": [
+      "A way to optimize functions by caching results",
+      "A memory management technique",
+      "A type of recursion",
+      "A way to store data in localStorage"
+    ],
+    "answer": "A way to optimize functions by caching results"
+  },
+  {
+    "question": "What is the Temporal Dead Zone in JavaScript?",
+    "options": [
+      "A period where variables are inaccessible before declaration",
+      "A browser rendering issue",
+      "A memory leak situation",
+      "A deprecated feature"
+    ],
+    "answer": "A period where variables are inaccessible before declaration"
+  },
+  {
+    "question": "What is the purpose of the WeakMap object?",
+    "options": [
+      "A map with weakly typed keys",
+      "A map that doesn't prevent garbage collection of its keys",
+      "A map with automatic sorting",
+      "A map that only accepts primitive values"
+    ],
+    "answer": "A map that doesn't prevent garbage collection of its keys"
+  },
+  {
+    "question": "What does the Object.freeze() method do?",
+    "options": [
+      "Makes an object immutable",
+      "Stops an object's execution",
+      "Converts an object to JSON",
+      "Deletes all properties from an object"
+    ],
+    "answer": "Makes an object immutable"
+  },
+  {
+    "question": "What is the purpose of the Reflect API in JavaScript?",
+    "options": [
+      "To reflect changes in the DOM",
+      "To provide methods for interceptable JavaScript operations",
+      "To create mirror objects",
+      "To handle light reflection in animations"
+    ],
+    "answer": "To provide methods for interceptable JavaScript operations"
+  },
+  {
+    "question": "What is a decorator in JavaScript?",
+    "options": [
+      "A special comment syntax",
+      "A function that modifies the behavior of another function or class",
+      "A way to style console output",
+      "A type of object property"
+    ],
+    "answer": "A function that modifies the behavior of another function or class"
+  },
+  {
+    "question": "What is the purpose of the Intl object?",
+    "options": [
+      "To handle internationalization features",
+      "To create integers",
+      "To manage intervals",
+      "To handle internal operations"
+    ],
+    "answer": "To handle internationalization features"
+  },
+  {
+    "question": "What does the ArrayBuffer object represent?",
+    "options": [
+      "A buffer for array operations",
+      "A fixed-length raw binary data buffer",
+      "A way to concatenate arrays",
+      "A special type of array"
+    ],
+    "answer": "A fixed-length raw binary data buffer"
+  },
+  {
+    "question": "What is the purpose of the Web Workers API?",
+    "options": [
+      "To create worker threads that run in parallel",
+      "To handle HTTP requests",
+      "To manage web services",
+      "To create web components"
+    ],
+    "answer": "To create worker threads that run in parallel"
+  },
+  {
+    "question": "What is the difference between == and === in JavaScript?",
+    "options": [
+      "== compares values, === compares values and types",
+      "=== is deprecated, == should always be used",
+      "There is no difference",
+      "== converts types before comparison, === does not"
+    ],
+    "answer": "== converts types before comparison, === does not"
+  },
+  {
+    "question": "What is the purpose of the void operator?",
+    "options": [
+      "To return undefined from an expression",
+      "To empty a variable",
+      "To stop function execution",
+      "To declare void functions"
+    ],
+    "answer": "To return undefined from an expression"
+  },
+  {
+    "question": "What is the purpose of the with statement in JavaScript?",
+    "options": [
+      "To handle exceptions",
+      "To extend the scope chain (deprecated)",
+      "To create with loops",
+      "To include external files"
+    ],
+    "answer": "To extend the scope chain (deprecated)"
+  },
+  {
+    "question": "What is the purpose of the label statement in JavaScript?",
+    "options": [
+      "To label variables",
+      "To identify loops or blocks for break/continue",
+      "To create labeled functions",
+      "To mark deprecated code"
+    ],
+    "answer": "To identify loops or blocks for break/continue"
+  },
+  {
+    "question": "What is the purpose of the debugger statement?",
+    "options": [
+      "To debug CSS",
+      "To invoke any available debugging functionality",
+      "To handle errors",
+      "To create breakpoints in code"
+    ],
+    "answer": "To invoke any available debugging functionality"
+  },
+  {
+    "question": "What is the purpose of the BigInt data type in JavaScript?",
+    "options": [
+      "To store large integers beyond the Number limit",
+      "To handle big data sets",
+      "To create large arrays",
+      "To optimize mathematical operations"
+    ],
+    "answer": "To store large integers beyond the Number limit"
+  },
+  {
+    "question": "What does the optional chaining operator (?.) do?",
+    "options": [
+      "Short-circuits evaluation if the reference is null/undefined",
+      "Creates optional function parameters",
+      "Makes all properties optional in an object",
+      "Handles asynchronous operations"
+    ],
+    "answer": "Short-circuits evaluation if the reference is null/undefined"
+  },
+  {
+    "question": "What is the nullish coalescing operator (??) used for?",
+    "options": [
+      "To return the right operand when the left is null/undefined",
+      "To merge two objects",
+      "To combine two arrays",
+      "To handle null exceptions"
+    ],
+    "answer": "To return the right operand when the left is null/undefined"
+  },
+  {
+    "question": "What is the purpose of dynamic imports in JavaScript?",
+    "options": [
+      "To load modules on demand",
+      "To import variables dynamically",
+      "To handle dynamic typing",
+      "To create dynamic scripts"
+    ],
+    "answer": "To load modules on demand"
+  },
+  {
+    "question": "What does the globalThis property represent?",
+    "options": [
+      "The global object in any environment",
+      "The current function's context",
+      "The top-level component",
+      "The main thread"
+    ],
+    "answer": "The global object in any environment"
+  },
+  {
+    "question": "What is the purpose of the import.meta object?",
+    "options": [
+      "To provide metadata about the current module",
+      "To import metadata files",
+      "To handle meta tags",
+      "To create meta programming constructs"
+    ],
+    "answer": "To provide metadata about the current module"
+  },
+  {
+    "question": "What are private class fields in JavaScript?",
+    "options": [
+      "Fields prefixed with # that are only accessible within the class",
+      "Fields marked with private keyword",
+      "Fields that can't be modified",
+      "Fields only available in Node.js"
+    ],
+    "answer": "Fields prefixed with # that are only accessible within the class"
+  },
+  {
+    "question": "What is the purpose of the static keyword in classes?",
+    "options": [
+      "To define methods/properties available on the class itself",
+      "To prevent methods from changing",
+      "To create immutable classes",
+      "To optimize performance"
+    ],
+    "answer": "To define methods/properties available on the class itself"
+  },
+  {
+    "question": "What does the top-level await feature allow?",
+    "options": [
+      "Using await outside async functions in modules",
+      "Waiting for multiple promises",
+      "Pausing the entire execution context",
+      "Making all functions asynchronous"
+    ],
+    "answer": "Using await outside async functions in modules"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.at() method?",
+    "options": [
+      "To get an element at a specific index (allowing negative indices)",
+      "To check if an element exists",
+      "To add elements at a specific position",
+      "To find the position of an element"
+    ],
+    "answer": "To get an element at a specific index (allowing negative indices)"
+  },
+  {
+    "question": "What does the Object.hasOwn() method do?",
+    "options": [
+      "Checks if an object has a property as its own (not inherited)",
+      "Creates a new object with specified properties",
+      "Merges two objects",
+      "Returns all own properties"
+    ],
+    "answer": "Checks if an object has a property as its own (not inherited)"
+  },
+  {
+    "question": "What is the purpose of the Error.cause property?",
+    "options": [
+      "To specify the original error when creating new errors",
+      "To log error causes",
+      "To prevent errors",
+      "To categorize errors"
+    ],
+    "answer": "To specify the original error when creating new errors"
+  },
+  {
+    "question": "What does the Array.prototype.findLast() method do?",
+    "options": [
+      "Finds the last element matching a condition",
+      "Reverses the array before searching",
+      "Returns the last element regardless of condition",
+      "Finds all matching elements"
+    ],
+    "answer": "Finds the last element matching a condition"
+  },
+  {
+    "question": "What is the purpose of the Intl.DateTimeFormat object?",
+    "options": [
+      "To format dates according to locale",
+      "To handle timezone conversions",
+      "To create date intervals",
+      "To parse date strings"
+    ],
+    "answer": "To format dates according to locale"
+  },
+  {
+    "question": "What does the Intl.ListFormat object do?",
+    "options": [
+      "Formats lists according to locale",
+      "Creates numbered lists",
+      "Sorts lists alphabetically",
+      "Combines multiple lists"
+    ],
+    "answer": "Formats lists according to locale"
+  },
+  {
+    "question": "What is the purpose of the Intl.NumberFormat object?",
+    "options": [
+      "To format numbers according to locale",
+      "To perform mathematical operations",
+      "To convert between number systems",
+      "To validate numbers"
+    ],
+    "answer": "To format numbers according to locale"
+  },
+  {
+    "question": "What does the navigator.storage.estimate() method provide?",
+    "options": [
+      "Estimates storage quota and usage",
+      "Calculates file sizes",
+      "Measures memory usage",
+      "Optimizes storage performance"
+    ],
+    "answer": "Estimates storage quota and usage"
+  },
+  {
+    "question": "What is the purpose of the queueMicrotask() function?",
+    "options": [
+      "To schedule a microtask (similar to Promise.resolve())",
+      "To create task queues",
+      "To handle worker threads",
+      "To prioritize certain operations"
+    ],
+    "answer": "To schedule a microtask (similar to Promise.resolve())"
+  },
+  {
+    "question": "What does the AggregateError object represent?",
+    "options": [
+      "Multiple errors wrapped in a single error",
+      "Errors from aggregate functions",
+      "Database errors",
+      "Network request errors"
+    ],
+    "answer": "Multiple errors wrapped in a single error"
+  },
+  {
+    "question": "What is the purpose of the WeakRef object?",
+    "options": [
+      "To hold weak references to objects without preventing GC",
+      "To create references to weak maps",
+      "To handle memory leaks",
+      "To reference DOM elements"
+    ],
+    "answer": "To hold weak references to objects without preventing GC"
+  },
+  {
+    "question": "What does the FinalizationRegistry do?",
+    "options": [
+      "Allows cleanup callbacks when objects are garbage collected",
+      "Registers final classes",
+      "Handles application shutdown",
+      "Manages memory allocation"
+    ],
+    "answer": "Allows cleanup callbacks when objects are garbage collected"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.group() method?",
+    "options": [
+      "Groups array elements into an object based on criteria",
+      "Sorts array elements",
+      "Combines multiple arrays",
+      "Creates subarrays"
+    ],
+    "answer": "Groups array elements into an object based on criteria"
+  },
+  {
+    "question": "What does the Object.groupBy() method do?",
+    "options": [
+      "Groups object properties into categories",
+      "Groups array elements (similar to Array.prototype.group())",
+      "Organizes object keys alphabetically",
+      "Creates nested objects"
+    ],
+    "answer": "Groups array elements (similar to Array.prototype.group())"
+  },
+  {
+    "question": "What is the purpose of the atob() and btoa() functions?",
+    "options": [
+      "To encode/decode base64 strings",
+      "To handle binary operations",
+      "To convert between array buffers",
+      "To manage byte order"
+    ],
+    "answer": "To encode/decode base64 strings"
+  },
+  {
+    "question": "What does the structuredClone() function do?",
+    "options": [
+      "Creates a deep clone of an object",
+      "Clones class instances",
+      "Copies object references",
+      "Creates shallow copies"
+    ],
+    "answer": "Creates a deep clone of an object"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.toReversed() method?",
+    "options": [
+      "Returns a new reversed array without mutating original",
+      "Reverses the array in place",
+      "Creates a readonly reversed version",
+      "Sorts in reverse order"
+    ],
+    "answer": "Returns a new reversed array without mutating original"
+  },
+  {
+    "question": "What does the Array.prototype.toSorted() method do?",
+    "options": [
+      "Returns a new sorted array without mutating original",
+      "Sorts the array in place",
+      "Creates a readonly sorted version",
+      "Only works with numbers"
+    ],
+    "answer": "Returns a new sorted array without mutating original"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.with() method?",
+    "options": [
+      "Returns a new array with one element replaced",
+      "Filters array elements",
+      "Creates array subsets",
+      "Combines arrays"
+    ],
+    "answer": "Returns a new array with one element replaced"
+  },
+  {
+    "question": "What does the Intl.Segmenter object do?",
+    "options": [
+      "Segments text according to locale (graphemes, words, sentences)",
+      "Splits strings into equal parts",
+      "Handles text encoding",
+      "Manages memory segments"
+    ],
+    "answer": "Segments text according to locale (graphemes, words, sentences)"
+  },
+  {
+    "question": "What is the purpose of the Temporal API?",
+    "options": [
+      "Modern date/time operations API",
+      "Handling temporary files",
+      "Managing short-lived objects",
+      "Performance timing"
+    ],
+    "answer": "Modern date/time operations API"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.flatMap() method?",
+    "options": [
+      "Maps each element then flattens the result by 1 level",
+      "Flattens an array then maps the elements",
+      "Creates a 2D array from mapped results",
+      "Performs flat mapping of nested objects"
+    ],
+    "answer": "Maps each element then flattens the result by 1 level"
+  },
+  {
+    "question": "What does the Promise.any() method do?",
+    "options": [
+      "Resolves when any promise in iterable resolves",
+      "Resolves when all promises resolve",
+      "Rejects if any promise rejects",
+      "Executes promises in parallel"
+    ],
+    "answer": "Resolves when any promise in iterable resolves"
+  },
+  {
+    "question": "What is the purpose of the logical assignment operators (&&=, ||=, ??=)?",
+    "options": [
+      "Perform logical operation and assignment in one step",
+      "Replace if-else statements",
+      "Handle ternary operations",
+      "Optimize boolean algebra"
+    ],
+    "answer": "Perform logical operation and assignment in one step"
+  },
+  {
+    "question": "What does the String.prototype.replaceAll() method do?",
+    "options": [
+      "Replaces all occurrences of a substring",
+      "Replaces first occurrence only",
+      "Replaces using regular expressions only",
+      "Replaces entire string"
+    ],
+    "answer": "Replaces all occurrences of a substring"
+  },
+  {
+    "question": "What is the purpose of the Object.fromEntries() method?",
+    "options": [
+      "Transforms key-value pairs into an object",
+      "Creates object entries",
+      "Converts objects to arrays",
+      "Maps object properties"
+    ],
+    "answer": "Transforms key-value pairs into an object"
+  },
+  {
+    "question": "What does the Promise.allSettled() method return?",
+    "options": [
+      "Array of promise results after all settle",
+      "First settled promise",
+      "Rejects if any promise rejects",
+      "Only fulfilled promises"
+    ],
+    "answer": "Array of promise results after all settle"
+  },
+  {
+    "question": "What is the purpose of the globalThis property?",
+    "options": [
+      "Standard way to access global object across environments",
+      "Reference to current module",
+      "Access to global variables only",
+      "Alternative to window object"
+    ],
+    "answer": "Standard way to access global object across environments"
+  },
+  {
+    "question": "What does the import() function (dynamic import) return?",
+    "options": [
+      "Promise that resolves to module namespace object",
+      "Synchronous module import",
+      "Module exports directly",
+      "Reference to imported module"
+    ],
+    "answer": "Promise that resolves to module namespace object"
+  },
+  {
+    "question": "What is the purpose of private class fields (# prefix)?",
+    "options": [
+      "Enforce encapsulation by making fields private",
+      "Mark fields as protected",
+      "Optimize memory usage",
+      "Enable static typing"
+    ],
+    "answer": "Enforce encapsulation by making fields private"
+  },
+  {
+    "question": "What does the static keyword in classes do?",
+    "options": [
+      "Defines properties/methods on class constructor",
+      "Makes properties immutable",
+      "Prevents inheritance",
+      "Enables singleton pattern"
+    ],
+    "answer": "Defines properties/methods on class constructor"
+  },
+  {
+    "question": "What is the purpose of the Intl.DisplayNames API?",
+    "options": [
+      "Provides consistent translation of language/region/script names",
+      "Formats display names in UI",
+      "Handles name validation",
+      "Manages DOM element names"
+    ],
+    "answer": "Provides consistent translation of language/region/script names"
+  },
+  {
+    "question": "What does the navigator.storage.persist() method do?",
+    "options": [
+      "Requests persistent storage for site data",
+      "Saves data permanently",
+      "Prevents cache clearing",
+      "Manages localStorage quota"
+    ],
+    "answer": "Requests persistent storage for site data"
+  },
+  {
+    "question": "What is the purpose of the AbortController interface?",
+    "options": [
+      "Allows aborting fetch requests and other operations",
+      "Handles error aborting",
+      "Manages application shutdown",
+      "Controls worker termination"
+    ],
+    "answer": "Allows aborting fetch requests and other operations"
+  },
+  {
+    "question": "What does the Array.prototype.toSpliced() method do?",
+    "options": [
+      "Returns new array with elements spliced without mutating original",
+      "Performs in-place splice operation",
+      "Creates spliced array copy",
+      "Joins multiple arrays"
+    ],
+    "answer": "Returns new array with elements spliced without mutating original"
+  },
+  {
+    "question": "What is the purpose of the Object.hasOwn() method?",
+    "options": [
+      "Safer alternative to hasOwnProperty()",
+      "Checks prototype chain properties",
+      "Validates object ownership",
+      "Creates new properties"
+    ],
+    "answer": "Safer alternative to hasOwnProperty()"
+  },
+  {
+    "question": "What does the Error.cause property allow?",
+    "options": [
+      "Chaining errors while preserving original error",
+      "Multiple error causes",
+      "Automatic error tracing",
+      "Error categorization"
+    ],
+    "answer": "Chaining errors while preserving original error"
+  },
+  {
+    "question": "What is the purpose of the Array.prototype.findLastIndex() method?",
+    "options": [
+      "Finds last index matching predicate",
+      "Reverses array before searching",
+      "Returns last index regardless of match",
+      "Finds all matching indices"
+    ],
+    "answer": "Finds last index matching predicate"
+  },
+  {
+    "question": "What does the Intl.DurationFormat API provide?",
+    "options": [
+      "Locale-aware duration formatting",
+      "Time interval calculations",
+      "Performance measurement",
+      "Timeout formatting"
+    ],
+    "answer": "Locale-aware duration formatting"
+  },
+  {
+    "question": "What is the purpose of the ShadowRealm API?",
+    "options": [
+      "Creates isolated JavaScript execution environments",
+      "Manages DOM shadow trees",
+      "Handles secure contexts",
+      "Creates virtual machines"
+    ],
+    "answer": "Creates isolated JavaScript execution environments"
+  },
+  {
+    "question": "What does the Array.prototype.groupBy() method (proposal) do?",
+    "options": [
+      "Groups array elements into object by key",
+      "Creates subarrays by condition",
+      "Organizes array indices",
+      "Sorts and groups simultaneously"
+    ],
+    "answer": "Groups array elements into object by key"
+  }
+]
